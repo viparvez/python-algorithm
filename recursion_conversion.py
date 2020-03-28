@@ -14,4 +14,4 @@ def factorial_accumulator(n,accumulator=1):
     return factorial_accumulator(n-1,n*accumulator)
 
 if __name__ == "__main__":
-    print(factorial_accumulator(5))
+    print(factorial_accumulator(6))
